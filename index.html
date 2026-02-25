@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollSmoother.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/SplitText.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <title>Portifólio - Maria Luiza Koerich</title>
+  </head>
+
+  <body>
+    <!-- ScrollSmoother wrapper -->
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <section class="section-hero">
+          <header>
+            <div class="nome">
+              <img src="icons/icon-dev-nav.svg" alt="" />
+              <h1 class="estilo-titulo-secoes">Maria Luiza Koerich</h1>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="#minha-jornada">Minha Jornada</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
+            </nav>
+          </header>
+          <img class="tec_img" src="img/tec_img.webp" alt="" />
+        </section>
+
+        <section class="section-minha-jornada" id="minha-jornada">
+          <div class="titulo-secao">
+            <h2 class="estilo-titulo-secoes">MINHA JORNADA</h2>
+          </div>
+          <div class="conteudo">
+            <div class="linha"></div>
+
+            <div class="card-1 card" style="--cor: #00f5ff">
+              <div class="titulo-card">
+                <img src="icons/icon-calendar-azul.svg" alt="" />
+                <span>2010</span>
+              </div>
+              <div class="conteudo-card">
+                <h3>O começo: Entender os Processos</h3>
+                <p>
+                  Entrei na área têxtil atuando na produção, foi onde desenvolvi
+                  minha base: observar etapas, identificar gargalos e entender
+                  como pequenas mudanças alteram todo o resultado.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-2 card" style="--cor: #ff00ff">
+              <div class="titulo-card">
+                <img src="icons/icon-calendar-roxo.svg" alt="" />
+                <span>2014</span>
+              </div>
+              <div class="conteudo-card">
+                <h3>Engenharia e Otimização</h3>
+                <p>
+                  Passei pela área de engenharia estudando tempos, métodos e
+                  viabilidade de produto. O trabalho deixou de ser executar e
+                  passou a ser entender porque funciona e como poderia funcionar
+                  melhor. Foi quando comecei a criar planilhas, automações e
+                  padronizações, sem perceber eu já estava programando, porém
+                  sem código ainda
+                </p>
+              </div>
+            </div>
+
+            <div class="card-3 card" style="--cor: #00ff9f">
+              <div class="titulo-card">
+                <img src="icons/icon-calendar-verde.svg" alt="" />
+                <span>2025</span>
+              </div>
+              <div class="conteudo-card">
+                <h3>Do processo ao código</h3>
+                <p>
+                  Depois de alguns anos estudando e melhorando processos, notei
+                  um padrão: O que mais me motivava nunca era a peça pronta. Era
+                  construir algo novo que resolvesse um problema: Automatizar
+                  análises, organizar dados, eliminar retrabalho, percebi que o
+                  que eu mais gostava sempre foi lógica.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-4 card" style="--cor: #ff0040">
+              <div class="titulo-card">
+                <img src="icons/icon-calendar-vermelho.svg" alt="" />
+                <span>2025</span>
+              </div>
+              <div class="conteudo-card">
+                <h3>Transição para Tecnologia</h3>
+                <p>
+                  Depois de alguns anos estudando e melhorando processos, notei
+                  um padrão: O que mais me motivava nunca era a peça pronta. Era
+                  construir algo novo que resolvesse um problema: Automatizar
+                  análises, organizar dados, eliminar retrabalho, percebi que o
+                  que eu mais gostava sempre foi lógica.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-cursos" id="cursos">
+          <div class="titulo-secao">
+            <h2 class="estilo-titulo-secoes">CURSOS</h2>
+          </div>
+
+          <div class="cursos-grid">
+            <div class="curso-card">
+              <h3>Faculdate de Engenharia de Software</h3>
+              <span>Estácio</span>
+              <ul>
+                <li>Início da faculadde</li>
+                <li>Semestre: 01/2026</li>
+                <li>Termino: 12/2029</li>
+              </ul>
+            </div>
+
+            <div class="curso-card">
+              <h3>JOVEM PROGRAMADOR</h3>
+              <span>Senac</span>
+              <ul>
+                <li>Lógica de Programação</li>
+                <li>Programação de Sistemas</li>
+                <li>Programação Web</li>
+              </ul>
+            </div>
+
+            <div class="curso-card">
+              <h3>JAVASCRIPT</h3>
+              <span>O Novo Programador</span>
+              <ul>
+                <li>Fundamentos de JavaScript</li>
+                <li>Lógica de Programação</li>
+                <li>Manipulação de arrays e objetos</li>
+                <li>Eventos</li>
+                <li>Orientação a Objetos</li>
+                <li>Projetos interativos</li>
+              </ul>
+            </div>
+
+            <div class="curso-card">
+              <h3>HTML5 & CSS</h3>
+              <span>O Novo Programador</span>
+              <ul>
+                <li>Estruturação de páginas</li>
+                <li>Hierarquia de elementos</li>
+                <li>Estilização em CSS</li>
+                <li>Layouts Responsivos</li>
+              </ul>
+            </div>
+
+            <div class="curso-card">
+              <h3>PROJETOS DE ALTO VALOR</h3>
+              <span>DevArt</span>
+              <ul>
+                <li>Aplicação prática de HTML e CSS</li>
+                <li>Animações com GSAP</li>
+              </ul>
+            </div>
+
+            <div class="curso-card">
+              <h3>UX/UI COM FIGMA</h3>
+              <span>Rocketseat</span>
+              <ul>
+                <li>Fundamentos de UI/UX</li>
+                <li>Auto Layout</li>
+                <li>Componentes</li>
+                <li>Grids</li>
+              </ul>
+            </div>
+
+            <div class="curso-card">
+              <h3>BANCO DE DADOS</h3>
+              <span>O Novo Programador</span>
+              <ul>
+                <li>Modelagem Básica</li>
+                <li>Introdução a SQL</li>
+                <li>Consultas</li>
+              </ul>
+            </div>
+
+            <div class="curso-card">
+              <h3>MICROSOFT DP-100</h3>
+              <span>DIO</span>
+              <ul>
+                <li>Fundamentos de ML e IA</li>
+                <li>Modelos com Azure ML</li>
+                <li>IA Generativa</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-tecnologias" id="tecnologias">
+          <div class="titulo-secao">
+            <h2 class="estilo-titulo-secoes">TECNOLOGIAS</h2>
+          </div>
+
+          <!-- TECH GRID -->
+          <div class="tech-grid">
+            <div class="tech-card" data-cor="azul">
+              <img src="icons/icon-tec-html.svg" alt="HTML" />
+              <h3>HTML</h3>
+            </div>
+
+            <div class="tech-card" data-cor="rosa">
+              <img src="icons/icon-tec-css.svg" alt="CSS" />
+              <h3>CSS</h3>
+            </div>
+
+            <div class="tech-card" data-cor="verde">
+              <img src="icons/icon-tec-js.svg" alt="JavaScript" />
+              <h3>JavaScript</h3>
+            </div>
+
+            <div class="tech-card" data-cor="vermelho">
+              <img src="icons/icon-tec-gsap.svg" alt="GSAP" />
+              <h3>GSAP</h3>
+            </div>
+
+            <div class="tech-card" data-cor="azul">
+              <img src="icons/icon-tec-figma.svg" alt="Figma" />
+              <h3>Figma</h3>
+            </div>
+
+            <div class="tech-card" data-cor="rosa">
+              <img src="icons/icon-tec-github.svg" alt="GitHub" />
+              <h3>GitHub</h3>
+            </div>
+
+            <div class="tech-card" data-cor="verde">
+              <img src="icons/icon-tec-db.svg" alt="Banco de Dados" />
+              <h3>Banco de Dados</h3>
+            </div>
+          </div>
+
+          
+          <div class="skills-wrap">
+            <h3 class="skills-titulo">SOFT SKILLS</h3>
+
+            <div class="skills-grid">
+              <div class="skill-chip" data-cor="azul">Trabalho em Equipe</div>
+              <div class="skill-chip" data-cor="rosa">Resolução de Problemas</div>
+              <div class="skill-chip" data-cor="verde">
+                Pensamento crítico
+              </div>
+              <div class="skill-chip" data-cor="vermelho">
+                Proatividade
+              </div>
+              <div class="skill-chip" data-cor="azul">Organização</div>
+              <div class="skill-chip" data-cor="rosa">Aprendizado rápido</div>
+              <div class="skill-chip" data-cor="verde">Adaptabilidade</div>
+              <div class="skill-chip" data-cor="vermelho">
+                Responsabilidade
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-projetos" id="projetos">
+          <div class="projetos-header">
+            <h2 class="estilo-titulo-secoes">PROJETOS</h2>
+            <p>Alguns dos meus trabalhos mais recentes</p>
+          </div>
+
+          <div class="projetos-lista">
+            <article class="projeto-item">
+              <div class="projeto-img">
+                <img
+                  src="img/img_stranger_things.webp"
+                  alt="Stranger Things — The Experience"
+                />
+              </div>
+
+              <div class="projeto-info">
+                <h3>Stranger Things — The Experience</h3>
+
+                <div class="projeto-desc">
+                  Landing page conceitual inspirada em Stranger Things, com foco
+                  em UI imersiva, narrativa visual e animações avançadas com
+                  GSAP. Inclui scroll suave, parallax, animações por scroll,
+                  texto com SplitText, preloader SVG e layout responsivo.
+                  <br /><br />
+                  Tecnologias: HTML, CSS, JavaScript e GSAP.
+                </div>
+
+                <div class="tech-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>GSAP</span>
+                </div>
+
+                <div class="projeto-botoes">
+                  <a
+                    href="https://marialuizakoerich.github.io/LANDINGPAGE-STRANGERTHINGS/"
+                    target="_blank"
+                    class="btn-primario"
+                    >Ver Projeto</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="projeto-item">
+              <div class="projeto-img">
+                <img src="img/img_pagina_erro.webp" alt="Página 404 Animada" />
+              </div>
+
+              <div class="projeto-info">
+                <h3>Página 404 Animada com Vídeo Responsivo</h3>
+
+                <div class="projeto-desc">
+                  Página 404 moderna e otimizada com vídeo de fundo responsivo
+                  carregado dinamicamente via JavaScript. Troca automática entre
+                  versões desktop e mobile usando breakpoint, evitando carregar
+                  múltiplos vídeos e melhorando performance.
+                  <br /><br />
+                  Tecnologias: HTML, CSS e JavaScript.
+                </div>
+
+                <div class="tech-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>Performance</span>
+                </div>
+
+                <div class="projeto-botoes">
+                  <a
+                    href="https://marialuizakoerich.github.io/PAGE-ERROR404/"
+                    target="_blank"
+                    class="btn-primario"
+                    >Ver Projeto</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-contato" id="contato">
+          <div class="contato-header">
+            <h2 class="estilo-titulo-secoes">VAMOS CONVERSAR?</h2>
+            <p>Estou sempre aberta a novos projetos e oportunidades</p>
+          </div>
+
+          <div class="contato-grid">
+            <aside class="contato-perfil">
+              <div class="perfil-topo">
+                <div class="avatar">
+                  <img
+                    src="img/img_perfil.webp"
+                    alt="Foto de Maria Luiza Koerich"
+                  />
+                </div>
+
+                <h3>Maria Luiza Koerich</h3>
+              </div>
+
+              <div class="perfil-info">
+                <div class="info-item email">
+                  <img src="icons/icon-email.svg" alt="" />
+                  <div class="info-texto">
+                    <span>Email</span>
+                    <p>marial.k@hotmail.com</p>
+                  </div>
+                </div>
+
+                <a
+                  href="https://wa.me/5548996653883"
+                  target="_blank"
+                  class="info-item phone"
+                >
+                  <img src="icons/icon-phone.svg" alt="" />
+                  <div class="info-texto">
+                    <span>Telefone</span>
+                    <p>55(48)996653883</p>
+                  </div>
+                </a>
+
+                <div class="info-item local">
+                  <img src="icons/icon-local.svg" alt="" />
+                  <div class="info-texto">
+                    <span>Localização</span>
+                    <p>Blumenau - SC</p>
+                  </div>
+                </div>
+              </div>
+            </aside>
+
+            <div class="contato-form">
+              <h3>Envie uma Mensagem</h3>
+              <p>Preencha o formulário abaixo e entrarei em contato em breve</p>
+
+              <form>
+                <label>
+                  Nome
+                  <input type="text" placeholder="Seu nome completo" required />
+                </label>
+
+                <label>
+                  Email
+                  <input type="email" placeholder="seu@email.com" required />
+                </label>
+
+                <label>
+                  Mensagem
+                  <textarea
+                    placeholder="Conte-me sobre seu projeto ou oportunidade..."
+                    required
+                  ></textarea>
+                </label>
+
+                <button type="submit">Enviar Mensagem</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
