@@ -7,9 +7,10 @@ O projeto possui navegação por âncoras com scroll suave (ScrollSmoother) e ef
 
 ## ✨ Preview / Demo
 
-- Portfólio (adicione aqui seu link quando publicar): `https://...`
+🌐 **Acesse online pela GitHub Pages:**  
+👉 [https://marialuizakoerich.github.io/MEU-PORTIFOLIO/](https://marialuizakoerich.github.io/MEU-PORTIFOLIO/)
 
----
+
 
 ## 🧩 Funcionalidades
 
